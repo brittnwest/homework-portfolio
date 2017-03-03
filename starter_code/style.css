@@ -1,0 +1,95 @@
+body {
+	font-family:sans-serif;
+	border-top:5px solid black;
+	border-bottom:5px solid black;
+	background-color:rgb(250,250,250);
+	font-size:16px;
+}
+nav {
+	text-align:center;
+	margin-top:50px;
+	font-weight:bold;
+	font-size:20px;
+}
+nav a{
+	color:black;
+}
+nav ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav li{
+	list-style-type:none;
+	display:inline-block;
+	padding:3px;
+	text-align:center;
+	
+}
+h1{
+	text-align:center;
+	text-transform: uppercase;
+}
+footer{
+	text-align:center;
+	margin-bottom:50px;
+}
+li {
+	list-style-type:disc;
+}
+li p{
+	margin: 0 0 3px 0;
+}
+p{
+	font-family:serif;
+}
+h3{
+	text-transform: uppercase;
+}
+.clearfix{
+	clear:both;
+}
+.avatar {
+    float: right;
+    padding:10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    -webkit-filter: opacity(10%); /* Safari */
+    filter: opacity(10%);
+    filter: alpha(opacity=10); /* For IE8 and earlier */
+}
+.portfolio_img {
+	border-top:1px solid black;
+    border-bottom:1px solid black;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    margin:10px 10px 10px 10px;
+    padding:5px 5px 5px 5px;
+}
+.selected_nav{
+	font-style:italic;
+}
+.container {
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-bottom:10px;
+	max-width: 800px;
+	margin:auto;
+}
+.company{
+	font-family:helvetica;
+}
+.dates{
+	font-family:serif;
+	font-size:12px;
+}
+.job{
+	font-weight:bold;
+	font-style:italic;
+
+}
